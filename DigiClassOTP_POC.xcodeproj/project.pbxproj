@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1812EC8B29B0B551000CD4DB /* DigiClassOTP_POCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812EC8A29B0B551000CD4DB /* DigiClassOTP_POCApp.swift */; };
-		1812EC8D29B0B551000CD4DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812EC8C29B0B551000CD4DB /* ContentView.swift */; };
 		1812EC8F29B0B554000CD4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1812EC8E29B0B554000CD4DB /* Assets.xcassets */; };
 		1812EC9229B0B554000CD4DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1812EC9129B0B554000CD4DB /* Preview Assets.xcassets */; };
+		1812EC9929B0B727000CD4DB /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812EC9829B0B727000CD4DB /* OTPVerificationView.swift */; };
+		18CC97CC29B0D41300ACD959 /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC97CB29B0D41300ACD959 /* OTPViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1812EC8729B0B551000CD4DB /* DigiClassOTP_POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigiClassOTP_POC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1812EC8A29B0B551000CD4DB /* DigiClassOTP_POCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiClassOTP_POCApp.swift; sourceTree = "<group>"; };
-		1812EC8C29B0B551000CD4DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1812EC8E29B0B554000CD4DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1812EC9129B0B554000CD4DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1812EC9829B0B727000CD4DB /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+		18CC97CB29B0D41300ACD959 /* OTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				1812EC8A29B0B551000CD4DB /* DigiClassOTP_POCApp.swift */,
-				1812EC8C29B0B551000CD4DB /* ContentView.swift */,
+				1812EC9829B0B727000CD4DB /* OTPVerificationView.swift */,
+				18CC97CB29B0D41300ACD959 /* OTPViewModel.swift */,
 				1812EC8E29B0B554000CD4DB /* Assets.xcassets */,
 				1812EC9029B0B554000CD4DB /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1812EC8D29B0B551000CD4DB /* ContentView.swift in Sources */,
+				18CC97CC29B0D41300ACD959 /* OTPViewModel.swift in Sources */,
+				1812EC9929B0B727000CD4DB /* OTPVerificationView.swift in Sources */,
 				1812EC8B29B0B551000CD4DB /* DigiClassOTP_POCApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
